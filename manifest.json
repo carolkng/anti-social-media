@@ -1,31 +1,31 @@
 {
   "manifest_version": 2,
-  
+
   "name": "Blind Messenger",
   "description": "Have a Facebook friend you're always tempted to talk to? Hide your conversation completely with this extension!",
-  "version": "0.1",
-  
+  "version": "1.0",
+
   "icons": {
     "128": "icon_128.png"
   },
-  
+
   "browser_action": {
     "default_title": "Blind Messenger Settings",
     "default_icon": "icon_128.png",
     "default_popup": "popup.html"
   },
-  
+
   "permissions": [
     "tabs",
     "storage",
     "https://www.messenger.com/",
-    "http://www.messenger.com/"    
+    "http://www.messenger.com/"
   ],
-  
+
   "background": {
     "scripts": ["scripts/bootstrap.js"]
   },
-  
+
   "content_scripts": [
     {
       "matches": ["http://*.messenger.com/t/*", "https://*.messenger.com/t/*"],
