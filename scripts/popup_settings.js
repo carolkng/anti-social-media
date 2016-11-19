@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var escaped = false;
     var escaped_names = names.value.split("\n").map(function(ob) {
       escaped = true;
-      console.log(ob);
       var rob = ob.replace(/[^0-9a-zA-Z.]/gi, '');
       return rob;
     }).filter(function(ob){ return ob.length > 1; });

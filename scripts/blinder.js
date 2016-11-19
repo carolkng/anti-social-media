@@ -19,13 +19,8 @@ function startBlock() {
         for (i=0; i < data.length; i++) {
           for (j=0; j < list.length; j++) {
             data_href = list[j].getAttribute("data-href").toLowerCase();
-            console.log("inner loop");
-            console.log(data_href);
-            console.log("https://www.messenger.com/t/" + data[i]);
             if (data_href === "https://www.messenger.com/t/" + data[i] ||
                 data_href === "http://www.messenger.com/t/" + data[i]) {
-              console.log("name to be removed:");
-              console.log(list[j]);
               list[j].parentElement.parentElement.remove();
               break;
             }
