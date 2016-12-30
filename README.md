@@ -15,9 +15,3 @@ open for those important friends from "work"? Low-key antisocial? Just blindfold
 * Doesn't block beyond the first "set" of Messenger users.
 * Doesn't work on Facebook proper
 * Nasty-looking popup
-
-Feel free to fork this repository and create a pull request if you're keen on
-improving the lives of low-key antisocial people everywhere!
-
-### License
-[MIT License](https://opensource.org/licenses/MIT).
