@@ -12,6 +12,6 @@ open for those important friends from "work"? Low-key antisocial? Just blindfold
 4. $$$$ PROFIT $$$$
 
 ### Known issues
-* Doesn't block beyond the first "set" of Messenger users.
-* Doesn't work on Facebook proper
-* Nasty-looking popup
+* [x] Doesn't block beyond the first "set" of Messenger users.
+* [ ] Doesn't work on Facebook proper
+* [ ] Nasty-looking popup
